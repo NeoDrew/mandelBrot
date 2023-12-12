@@ -12,7 +12,7 @@ public class Mandel extends Application {
     Pane root;
     final double POINTSIZE = 0.3; //Domain of depends on graphPrecision
     final double windowSize = 500; //Adjust the window size
-    final double scale = 1.0; //Adjust scale for graph: scale = a ---> x : [-a,a], y : [-a,a]
+    final double scale = 1.4; //Adjust scale for graph: scale = a ---> x : [-a,a], y : [-a,a]
     final double graphPrecision = 0.3; //Precision of points. 1/graphPrecision = # of points on unit line
     final int CONVERGE_CONST = 2; //
     final int ITERATION_CONST = 256; //
