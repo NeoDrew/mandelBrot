@@ -28,16 +28,16 @@ public class Mandel extends Application {
         this.root = new Pane();
         this.scene = new Scene(root, windowSize, windowSize);
 
-        stage.setTitle("Mandle Brot Set JavaFx");
+        stage.setTitle("Mandel Brot Set JavaFx");
         stage.setScene(scene);
         stage.show();
 
         createAxis();
-        createMandleSet();
+        createMandelSet();
     }
     /**
      * 
-     * Determines if a point lies in the Mandle Brot Set
+     * Determines if a point lies in the Mandel Brot Set
      * Iterates through recursion:
      * Z_0 = 0
      * Z_n+1 = (Z_n)^2 + C
@@ -99,7 +99,7 @@ public class Mandel extends Application {
     /**
      * Creates the Mandel Brot Set visual 
      */
-    public void createMandleSet() {
+    public void createMandelSet() {
         double convertedX;
         double convertedY;
         
