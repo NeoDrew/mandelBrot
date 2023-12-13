@@ -2,9 +2,14 @@
 
 A simple Mandelbrot set generator
 
+### Set Preview with Default Settings
+<p align="left">
+  <img src="generation1.png" width="400" alt="Set Preview with Default Settings">
+</p>
+
 ### How to use
 
-Tweak the following settings in `Mandel.java` to achieve your desired illustration. 
+1. Tweak the following settings in `Mandel.java` to achieve your desired illustration. 
 
 ```java
     final double POINTSIZE = 0.3; //Domain of depends on graphPrecision
@@ -12,8 +17,7 @@ Tweak the following settings in `Mandel.java` to achieve your desired illustrati
     final double scale = 1.4; //Adjust scale for graph: scale = a ---> x : [-a,a], y : [-a,a]
     final double graphPrecision = 0.3; //Precision of points. 1/graphPrecision = # of points on unit line
 ```
-
-Feel free to Use .vscode/settings.json for intelliCode.
+2. Compile & run with the following commands
 
 ```bash
 export PATH_TO_FX=javafx-sdk-21.0.1/lib
@@ -21,10 +25,7 @@ javac --module-path $PATH_TO_FX --add-modules javafx.controls Mandel.java
 java --module-path $PATH_TO_FX --add-modules javafx.controls Mandel
 ```
 
-### Set Preview with Default Settings
-<p align="left">
-  <img src="generation1.png" width="400" alt="Set Preview with Default Settings">
-</p>
+Feel free to Use .vscode/settings.json for intelliCode.
 
 ### Wikipedia 📕
 To learn more about the mandelbrot set, [click here](https://en.wikipedia.org/wiki/Mandelbrot_set).
