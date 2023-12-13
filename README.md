@@ -4,6 +4,15 @@ A simple Mandelbrot set generator
 
 ### How to use
 
+Tweak the following settings in `Mandel.java` to achieve your desired illustration. 
+
+```java
+    final double POINTSIZE = 0.3; //Domain of depends on graphPrecision
+    final double windowSize = 500; //Adjust the window size
+    final double scale = 1.4; //Adjust scale for graph: scale = a ---> x : [-a,a], y : [-a,a]
+    final double graphPrecision = 0.3; //Precision of points. 1/graphPrecision = # of points on unit line
+```
+
 Feel free to Use .vscode/settings.json for intelliCode.
 
 ```bash
